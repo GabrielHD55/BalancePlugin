@@ -1,0 +1,11 @@
+name: BalancePlugin
+main: com.gabrielhd.balance.Balance
+version: 1.0
+api-version: 1.19
+author: GabrielHD55
+description: Economy plugin test
+commands:
+  balance:
+    usage: /<command>
+    aliases:
+      - bal

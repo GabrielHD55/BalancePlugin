@@ -1,0 +1,30 @@
+# Available types: MySQL, SQLite
+StorageType: sqlite
+Database:
+  Host: localhost
+  # Default port Mysql: 3306
+  Port: 3306
+  Database: balancedatabase
+  Username: balanceuser
+  Password: balancepass
+
+Random:
+  # Cooldown in seconds
+  Cooldown: 600
+  Min: 1
+  Max: 10
+
+Lang:
+  InCooldown: "&cYou must wait 10 minutes before using this again"
+  NotPermissions: "&cYou do not have permissions to use this"
+  IncorrectUsage: "&cIncorrect use of the command"
+  PlayerNotExists: "&cThis player does not exist"
+  PlayerNotOnline: "&cThis player is not online"
+  YourBalance: "&aYour balance: %money%"
+  OtherBalance: "&a%player%'s balance: %money%"
+  DonateBalance: "&aYou gave %money% dollars to %player%"
+  ReceivedBalance: "&aYou received %money% dollars from %player%"
+  InsufficientMoney: "&cInsufficient money"
+  GiveBalance: "&aYou gave %money% dollars to %player%"
+  GetBalance: "&a&lYou won %money% dollars!"
+  RemoveBalance: "&cYou removed %money% dollars from %player%"
